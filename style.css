@@ -25,3 +25,46 @@ header {
     clear: both;
     float: right;
 }
+
+section {
+    overflow: auto;
+    clear: both;
+    width: 100%;
+  }
+
+#sideNav {
+    height: 100%; 
+    position: fixed;
+    top: 90px; 
+    left: 0;
+    background-color: rgb(247, 245, 245);
+}
+
+h1 {
+    font-size: 20px;
+    text-align: left;
+    padding: 20px 0px 10px 5px;   
+}
+
+.fas {
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: left;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+p {
+    padding-bottom: 250px;
+    color: grey;
+}
+
+ul {
+    color: grey;
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 20px;
+}
