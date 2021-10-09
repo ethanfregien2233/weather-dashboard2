@@ -45,7 +45,7 @@ function showWeather(cityInput) {
     var lon = response.coord.lon; 
   
      
-    $("#dailyWeather").append(
+    $("#dWeather").append(
       "<div class='col s12 m6'>"
       +  "<h2 class='daily'>" + response.name + " (" + startDate + ")" + "&nbsp" + "<img src='" + iconUrl  + "'>" + "</h2>"
       +  "<ul class='daily'>" + "Temperature: " +  response.main.temp + " °F" + "</ul>"
@@ -73,7 +73,7 @@ function showWeather(cityInput) {
       var iconUrl5 = "http://openweathermap.org/img/w/" + response.daily[4].weather[0].icon + ".png";
    
        
-      $("#dailyWeather").append(
+      $("#dWeather").append(
         "<div class='col s12 m6'>"
        + "<button class='w3-button' id='uvIndex' class='daily'>" + "UV Index: " + response.current.uvi + "</button>"
        + "</div>"
